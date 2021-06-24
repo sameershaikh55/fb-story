@@ -93,7 +93,7 @@
     <!-- BODY START -->
     <div class="container-fluid">
         <div class="row">
-            <div class="fullHeight col-3 shadow py-2">
+            <div class="fullHeight position-relative col-3 shadow py-2">
                 <div class="d-flex justify-content-between align-items-center">
                     <h4 class="mb-0">Your Story</h4>
                     <div class="iconBg2 rounded-circle">
@@ -112,8 +112,19 @@
                 <hr>
 
                 <div class="d-flex align-items-center placeholderImg ms-3">
-                    <i class="textIcon2"></i>
+                    <div class="textIcon2Cont">
+                        <i class="textIcon2"></i>
+                    </div>
                     <h6 class="ms-2 mb-0">Add Text</h6>
+                </div>
+
+                <div class="position-absolute py-3 shadow w-100">
+                    <button>
+                        Discard
+                    </button>
+                    <button>
+                        share to story
+                    </button>
                 </div>
 
             </div>
