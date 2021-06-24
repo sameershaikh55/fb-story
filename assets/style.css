@@ -5,6 +5,32 @@
           box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.sideBar {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 99999;
+  display: none;
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#closeSidebar {
+  padding-top: 18px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
 .headerContainer {
   height: 70px;
 }
@@ -46,6 +72,16 @@
 .iconBg {
   background-color: #e4e6eb;
   padding: 8px 12px;
+}
+
+.logo {
+  width: 18%;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 90%;
+  }
 }
 
 .iconBg2 {
@@ -131,5 +167,181 @@
   border-radius: 50%;
   -webkit-box-shadow: 1px 3px 10px #6d6d6d;
           box-shadow: 1px 3px 10px #6d6d6d;
+}
+
+.shareBtn {
+  left: 0%;
+  bottom: 0%;
+}
+
+.shareBtn button:nth-child(1) {
+  background: #e4e6eb;
+  width: 40%;
+}
+
+.shareBtn button:nth-child(2) {
+  background: #1877f2;
+  width: 60%;
+}
+
+.textWrite {
+  height: 92%;
+  width: 90%;
+}
+
+.textWrite .darkSection {
+  width: 100%;
+  height: 95.5%;
+  background: #18191a;
+}
+
+.textWrite .darkSection .typeImg {
+  width: 340px;
+  height: 100%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+.textWrite .darkSection .typeImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.textWrite .darkSection .typeImg .typeText {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0rem;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea:focus {
+  outline: none;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.textWrite .darkSection .typeImg .typeText textarea::placeholder {
+  color: #fff;
+}
+
+.storyCardMobile {
+  width: 90px;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.storyCardMobile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.textWrite2 {
+  height: 100%;
+  width: 100%;
+}
+
+.textWrite2 .darkSection {
+  width: 100%;
+  height: 95.5%;
+  background: #18191a;
+}
+
+.textWrite2 .darkSection .typeImg {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+.textWrite2 .darkSection .typeImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.textWrite2 .darkSection .typeImg .typeText {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0rem;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea:focus {
+  outline: none;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.textWrite2 .darkSection .typeImg .typeText textarea::placeholder {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
