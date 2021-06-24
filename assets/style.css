@@ -1,0 +1,129 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.headerContainer {
+  height: 70px;
+}
+
+.headerContainer input:focus {
+  outline: none;
+}
+
+.searhField {
+  background-color: #f0f2f5;
+  border-radius: 50px;
+  padding: 0rem 1.5rem 0rem 2.3rem;
+}
+
+.searchIcon {
+  top: 50%;
+  left: 8%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.searchIcon i {
+  color: #cccc;
+}
+
+.centerIcons {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.placeholderImg img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.iconBg {
+  background-color: #e4e6eb;
+  padding: 8px 12px;
+}
+
+.iconBg2 {
+  background-color: #e4e6eb;
+  padding: 4px 6px;
+}
+
+.placeholderImg2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fullHeight {
+  height: 92vh;
+}
+
+.creatPhoto {
+  cursor: pointer;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png?_nc_eui2=AeHKkBe28eQ9qtplAze133zce09gZrPfSR57T2Bms99JHojjTMwDB34H2N5GUBFhZN76ffZqu-uIU-D2N7hYmqD_);
+  background-position: 0px 0px;
+  background-size: auto;
+  width: 220px;
+  height: 330px;
+  background-repeat: no-repeat;
+}
+
+.createText {
+  cursor: pointer;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png?_nc_eui2=AeHKkBe28eQ9qtplAze133zce09gZrPfSR57T2Bms99JHojjTMwDB34H2N5GUBFhZN76ffZqu-uIU-D2N7hYmqD_);
+  background-position: 0px -331px;
+  background-size: auto;
+  width: 220px;
+  height: 330px;
+  background-repeat: no-repeat;
+}
+
+.createText:hover,
+.creatPhoto:hover {
+  -webkit-filter: brightness(98%);
+          filter: brightness(98%);
+}
+
+.picIcon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/4QNFoN4aBJ1.png?_nc_eui2=AeGBXnZ7yaBQiSb2518P0o1MHM_D-cRPnNkcz8P5xE-c2cdJlzrywqMycAQAoXUbaCuhgPQSFVwaR8DD_zblhP83);
+  background-position: 0px -325px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.textIcon2 {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png?_nc_eui2=AeHKkBe28eQ9qtplAze133zce09gZrPfSR57T2Bms99JHojjTMwDB34H2N5GUBFhZN76ffZqu-uIU-D2N7hYmqD_);
+  background-position: 0px -662px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.textIcon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/EO1ss3ZHvcD.png?_nc_eui2=AeHKkBe28eQ9qtplAze133zce09gZrPfSR57T2Bms99JHojjTMwDB34H2N5GUBFhZN76ffZqu-uIU-D2N7hYmqD_);
+  background-position: 0px -662px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.cardIconCont {
+  background-color: #fff;
+  padding: 0.5rem 0.6rem 0.2rem 0.6rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 3px 10px #6d6d6d;
+          box-shadow: 1px 3px 10px #6d6d6d;
+}
+/*# sourceMappingURL=style.css.map */
