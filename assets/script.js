@@ -13,3 +13,12 @@ const closeSidebar = () => {
 	sidebar.style.transition = "1s all";
 };
 
+// color show and hide
+function colorSlotShow1()
+{
+	document.getElementById("desktopColor").style.display = "block";
+}
+
+function colorSlotShow2() {
+	document.getElementById("mobileColor").style.display = "block";
+}
