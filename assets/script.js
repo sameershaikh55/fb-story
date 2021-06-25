@@ -12,3 +12,4 @@ const closeSidebar = () => {
 	sidebar.style.opacity = "0";
 	sidebar.style.transition = "1s all";
 };
+
