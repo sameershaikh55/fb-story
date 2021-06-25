@@ -254,6 +254,11 @@ body {
     }
   }
 }
+
+.textWrite.marketPlace {
+  width: 95%;
+  height: 85%;
+}
 // BODY DESKTOP END
 
 // BODY MOBILE START
@@ -344,6 +349,15 @@ body {
   background-color: rgba(0,0,0,0.1);
 }
 
+.storyBg2 {
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.storyBg2:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
 .plusIcon{
   background-color: #1876f22d;
   padding: 0.7rem 0.9rem;
@@ -402,13 +416,23 @@ body {
 
 /* slick slider start */
 .main_slide_div {
-  width: 100%;
+  width: 70%;
+  margin: auto;
   // max-width: 400px !important;
   /* border: 1px solid; */
 }
+
+@media screen and (max-width: 575px) 
+{
+  .main_slide_div {
+  width: 100%;
+  margin: auto;
+  // max-width: 400px !important;
+  /* border: 1px solid; */
+}
+}
 .slider {
   text-align: center;
-  max-width: 500px !important;
 }
 
 .scroll-img-list {
@@ -466,52 +490,146 @@ body {
 }
 
 .slick-prev {
-    left: 60px !important;
+    left: 50px !important;
 }
 
 .slick-next {
     right: 60px !important;
 }
+// slider end
 
-// .slick-next,
-// .slick-prev {
-//   cursor: pointer;
-//   font-size: 25px;
-//   line-height: 0.9;
-//   border-radius: 3px;
-//   padding: 6px;
-//   border-radius: 50%;
-//   border: none;
-//   background-color: #fff;
-// }
+// FIRENDS PAGE START
+.iconsContainerFriends 
+{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
 
-// .slick-prev  {
-//   position: absolute;
-//   left: -3.5%;
-//   top: 50%;
-//   z-index: 1;
-//   transform: translateY(-50%);
-// }
-// .slick-next {
-//   position: absolute;
-//   right: 0%;
-//   top: 50%;
-//   z-index: 1;
-//   transform: translateY(-50%);
-// }
+.bottomInp {
+  bottom: 0%;
 
-// /* SLIDER END */
-// .slick-next:before {  
-//   content: "→";
-//   color: black;
-//   font-size: 30px;
-// }
-// /* slick slider end */
-// .slick-prev:before {
-//   content: "←";
-//   color: black;
-//   font-size: 30px;
-//   display: inline-block;
-//   margin-left: -9px;
-// }
-  // STORIES PAGE END
+  .inpCont {
+    .inpiCon{
+      position: absolute;
+      right: 4%;
+      top: 18%;
+    }
+  }
+
+  input {
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 50px;
+    padding: 0rem 01rem;
+    color: #fff;
+    height: 30px;
+
+    &:focus {
+      outline: none;
+    }
+    
+  }
+
+  .iconCont {
+    img {
+      width: 10%;
+      cursor: pointer;
+    }
+  }
+}
+
+.bottomInp2 {
+  background-color: #000;
+
+  .inpCont {
+    .inpiCon{
+      position: absolute;
+      right: 4%;
+      top: 18%;
+    }
+  }
+
+  input {
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 50px;
+    padding: 0rem 01rem;
+    color: #fff;
+    height: 30px;
+
+    &:focus {
+      outline: none;
+    }
+    
+  }
+
+  .iconCont {
+    img {
+      width: 10%;
+    }
+  }
+}
+
+// FIRENDS PAGE end
+
+// MARKETPLACE START
+.addPhoto {
+  height: 150px;
+
+  .addIcon {
+    width: 35px;
+    height: 32px;
+    background-color: rgba(0,0,0, 0.2);
+  }
+}
+
+.marketInp {
+  input {
+    border: 1px solid #cecece;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.iconCOntMarket {
+  position: absolute;
+  right: 2%;
+  top: 0%;
+}
+
+  .darkSection2{
+    width: 100%;
+    height: 95.5%;
+    border: 1px solid #cecece;
+    padding: 0rem 0.7rem;
+
+    .row {
+      height: 100%;
+
+      .leftSide{
+        border: 1px solid #1877f2;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+      }
+
+      @media screen and (max-width: 575px) {
+        .leftSide{
+          border: 1px solid #1877f2;
+          border: 6px;
+        }        
+      }
+    }
+  }
+
+  .leftSide.mobileSide {
+    height: 300px !important;
+  }
+
+  .mobileMarketPlace {
+    height: 200px;
+    overflow-y: auto;
+  }
+// MARKETPLACE END
