@@ -696,6 +696,12 @@ select:focus {
   /* border: 1px solid; */
 }
 
+.main_slide_div2 {
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
 @media screen and (max-width: 575px) {
   .main_slide_div {
     width: 100%;
